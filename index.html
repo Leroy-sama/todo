@@ -7,15 +7,21 @@
     <title>Todo ni</title>
 </head>
 <body>
-    <p>Todo List</p>
-    <div class="task-field">
-        <input type="text" placeholder="Task" class="task-name">
-        <input type="date" name="duedate" class="due-date">
-        <button class="add-btn" onclick="
-        addTask();
-    ">Add</button>
+    <div class="container">
+        <header>
+            <h1>Todo List</h1>
+        </header>
+        <div class="input-section">
+            <input type="text" placeholder="Add a task..." class="input-field">
+            <button class="ad-task-btn">Add</button>
+        </div>
+        <div class="todos-filter">
+            <ul class="todo-list">
+
+            </ul>
+        </div>
+        <button class="delete-all-btn">Delete All</button>
     </div>
-    <div class="task-fod"></div>
     <script src="script.js"></script>
 </body>
 </html>
